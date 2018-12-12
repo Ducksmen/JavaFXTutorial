@@ -1,0 +1,11 @@
+.root{
+    -fx-background-color: gold;
+}
+.label{
+    -fx-font-size: 20;
+}
+
+.button{
+    -fx-background-color: linear-gradient(#dc9516, #ab2142);
+    -fx-background-radius: 100;
+}

@@ -4,5 +4,12 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <GridPane fx:controller="sample.Controller"
+          stylesheets="/sample/sample.css"
           xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
+    <Button text="Say 'Hello World'" onAction="#sayHelloWorld" translateX="60"/>
+    <Button text="Score 1" onAction="#Score1" />
+    <Button text="Score 2" onAction="#Score2" translateY="-30"/>
+    <Button text="Score 3" onAction="#Score3" translateY="-60"/>
+    <Label GridPane.rowIndex="1" fx:id="helloWorld" />
+    <Label GridPane.rowIndex="2" fx:id="Score"/>
 </GridPane>
